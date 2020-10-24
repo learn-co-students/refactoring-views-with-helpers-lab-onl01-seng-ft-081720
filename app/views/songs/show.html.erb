@@ -1,3 +1,6 @@
 <h1><%= link_to @song.title, song_path(@song) %></h1>
 
-<%= link_to "All Songs", songs_path %>
+<%#  link_to "All Songs", songs_path %>
+
+<%#= link_to @song.artist_name, artist_path(@song.artist) %> 
+<p><%= display_artist(@song) %></p>
